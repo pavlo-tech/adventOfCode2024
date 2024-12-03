@@ -24,7 +24,7 @@ def is_safe(levels):
     return True
 
 def is_safe_with_level_removed(levels):
-    if is_safe(levels) == -1:
+    if is_safe(levels):
         return True
     else:
         for idx, curr in enumerate(levels):
